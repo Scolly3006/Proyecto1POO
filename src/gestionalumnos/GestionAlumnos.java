@@ -111,8 +111,6 @@ public class GestionAlumnos {
             for (Map.Entry<String, Alumno> entry : alumnos.entrySet()) {
                 Alumno alumno = entry.getValue();
                 System.out.println("Carnet: " + entry.getKey() + ", Nombre: " + alumno.getNombre() + ", Apellido: " + alumno.getApellido() + ", Carrera: " + alumno.getCarrera());
-                   
-               System.out.println("Prueba de subida");
             }
         }
     }
